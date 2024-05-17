@@ -1,0 +1,7 @@
+service : {
+  delete : (nat) -> (opt text);
+  get : (nat) -> (opt text) query;
+  get_with_pagination : (nat64, nat64) -> (vec record { nat; text }) query;
+  post : (text) -> (text);
+  update : (nat, text) -> (opt text);
+}

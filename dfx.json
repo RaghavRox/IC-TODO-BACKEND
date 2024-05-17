@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "ic-todo-backend": {
+      "candid": "src/ic-todo-backend/ic-todo-backend.did",
+      "package": "ic-todo-backend",
+      "type": "rust"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
